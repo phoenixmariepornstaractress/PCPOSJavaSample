@@ -2,11 +2,30 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+
     <content url="file://$MODULE_DIR$">
+      <!-- Source Directories -->
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+
+      <!-- Excluded Build/System Directories -->
+      <excludeFolder url="file://$MODULE_DIR$/out" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
     </content>
+
+    <!-- JDK Configuration -->
     <orderEntry type="inheritedJdk" />
+
+    <!-- Module Source -->
     <orderEntry type="sourceFolder" forTests="false" />
+
+    <!-- External Libraries -->
     <orderEntry type="library" name="ECDPCPos" level="project" />
+    <orderEntry type="library" name="JUnit" level="project" />
+    <orderEntry type="library" name="Log4j" level="project" />
+    <orderEntry type="library" name="Gson" level="project" />
+    <orderEntry type="library" name="ApacheCommons" level="project" />
   </component>
 </module>
